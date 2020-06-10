@@ -1,0 +1,498 @@
+
+/* ----- Font Displays ----- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+p, span {
+    font-family: 'Cabin', sans-serif;
+}
+
+
+/* ----- Universal ----- */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ----- Header Design ----- */
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #CBF3F0;
+    padding: 20px 0 40px;
+    color: #2EC4B6;
+}
+
+
+header h1 { /* Clears whitespace at top */
+    margin-top: 0;
+}
+
+header img {
+    width: 65%;
+    max-width: 500px;
+}
+
+header ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+header li {
+    margin: 5px 10px;
+    background-color: #FFDDD2;
+    color: #2EC4B6;
+}
+
+.header-nav a {
+    padding: 10px 5px;
+    display: block;
+}
+
+.header-text {
+    width: 100%;
+    text-align: center;
+    padding: 0 12px;
+    font-size: 17px;
+}
+
+.header-nav {
+    margin-bottom: 40px;
+}
+
+
+/* ----- Links Design ----- */
+
+a:link {
+    color: #2EC4B6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #2EC4B6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #CBF3F0;
+    font-weight: bolder;
+}
+
+a:active {
+    color: #CBF3F0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* ----- Main Display ----- */
+
+main {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 10px;
+    background-color: #EDF6F9;
+    border-bottom: solid black 1.5px;
+}
+
+main img {
+    width: 100%;
+    max-width: 400px;
+}
+
+main div {
+    padding-bottom: 15px;
+}
+
+#portfolio {
+    margin-bottom: 40px;
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.col {
+    padding: 0 15px;
+}
+
+.col p {
+    padding: 0 6px;
+}
+
+#skills {
+    padding-top: 30px;
+}
+
+.skills-list {
+    text-align: left;
+}
+
+.skills-div {
+    background-color: #d1e7f0;
+    padding-bottom: 30px;
+}
+
+.contact-div {
+    background-color: #EDF6F9;
+    padding: 30px 15px;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    padding: 30px 0 50px;
+    background-color: #CBF3F0;
+}
+
+footer h4 {
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin: 0;
+    padding-left: 15px;
+}
+
+footer span {
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+
+/* ----- Media Queries (320px - 767px, phones) ----- */
+
+@media (min-width: 1px) and (max-width: 767px) {
+    footer ul {
+        display: none;
+    }
+}
+
+
+/* ----- Media Queries (768px, tablets) ----- */
+
+@media (min-width: 768px) {
+
+    header p {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    header h1 {
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .header-nav li {
+        display: inline-block;
+        background-color: #CBF3F0;
+        margin: 0;
+        width: 120px;
+        padding-bottom: 30px;
+    }
+
+    .profile-image {
+        float: right;
+        width: 40%;
+        padding-right: 20px;
+    }
+
+    .header-p {
+        float: left;
+        width: 60%;
+        margin: 0;
+        line-height: 28px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .marketing-page {
+        float: left;
+        width: 50%;
+        padding-left: 30px;
+        padding-right: 5px;
+    }
+
+    .search-page {
+        float: right;
+        width: 50%;
+        padding-right: 30px;
+        padding-left: 5px;
+    }
+
+    .search-page,
+    .marketing-page {
+        padding-bottom: 40px;
+    }
+
+    .travel-page {
+        float: left;
+        width: 50%;
+        padding-left: 30px;
+        padding-right: 5px;
+    }
+
+    .map-page {
+        float: right;
+        width: 50%;
+        padding-right: 30px;
+        padding-left: 5px;
+    }
+
+    .travel-page,
+    .map-page {
+        padding-bottom: 40px;
+    }
+
+    .photo-page {
+        float: left;
+        width: 50%;
+        padding-left: 30px;
+        padding-right: 5px;
+    }
+
+    .calc-page {
+        float: right;
+        width: 50%;
+        padding-right: 30px;
+        padding-left: 5px;
+    }
+
+    .photo-page,
+    .calc-page {
+        padding-bottom: 40px;
+    }
+
+    .skills-div {
+        padding-bottom: 60px;
+    }
+
+    .skills-list {
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .skills-list li {
+        display: inline-block;
+        background-color: #ffddd2;
+        padding: 5px 15px;
+        color: #2EC4B6;
+    }
+
+    .contact-div .contact-text {
+        padding: 15px 16% 30px 16%;
+    }
+
+    .contact-div p {
+        font-size: 20px;
+    }
+
+    footer span {
+        display: none;
+    }
+
+    footer ul {
+        float: right;
+        text-align: right;
+        list-style-type: none;
+        width: 50%;
+        margin: 0;
+        padding: 0 10px 0 0;
+    }
+
+    footer li {
+        display: inline-block;
+    }
+
+    footer li a {
+        padding: 10px 15px;
+    }
+
+    footer {
+        padding-bottom: 60px;
+    }
+
+    a:link {
+        color: #2EC4B6;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    a:visited {
+        color: #2EC4B6;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        color: #FFDDD2;
+        font-weight: bolder;
+    }
+    
+    a:active {
+        color: #2EC4B6;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+}
+
+
+/* ----- Media Queries (1024px, laptops) ----- */
+
+@media (min-width: 1024px) {
+
+    header {
+        padding-top: 50px;
+    }
+    header h1 {
+        float: left;
+        width: 35%;
+        padding: 0 0 0 30px;
+        margin: 0;
+        text-align: left;
+    }
+
+    header nav {
+        float: right;
+        width: 65%;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+
+    .header-nav li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header-text {
+        padding-top: 20px;
+    }
+
+    .header-p {
+        font-size: 22px;
+        padding: 0 40px;
+    }
+
+    .profile-image {
+        padding-right: 40px;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .marketing-page,
+    .search-page {
+        float: left;
+        width: 33.3%;
+    }
+
+    .travel-page {
+        float: right;
+        width: 33.3%;
+    }
+
+    .marketing-page{
+        padding: 0 10px 40px 0;
+    }
+
+    .travel-page{
+        padding: 0 0 40px 10px;
+
+    }
+
+    .search-page{
+        padding: 0 5px 40px 5px;
+    }
+
+    .map-page,
+    .photo-page {
+        float: left;
+        width: 33.3%;
+    }
+
+    .calc-page {
+        float: right;
+        width: 33.3%;
+    }
+
+    .map-page{
+        padding: 0 10px 20px 0;
+    }
+
+    .calc-page{
+        padding: 0 0 20px 10px;
+
+    }
+
+    .photo-page{
+        padding: 0 5px 20px 5px;
+    }
+
+    .skills-div {
+        margin: 0;
+    }
+
+    main div {
+        padding: 10px;
+    }
+
+    .skills-list li {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .skills-div p {
+        font-size: 18px;
+    }
+
+    /* .clearfix-cont::after {
+        content: "";
+        clear: both;
+        display: table;
+      } */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- Clearfix for Floats ----- */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
