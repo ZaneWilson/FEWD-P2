@@ -467,6 +467,12 @@ footer span {
         font-size: 18px;
     }
 
+    .clearfix-laptop::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
 }
 
 /* ----- Clearfix for Floats ----- */
