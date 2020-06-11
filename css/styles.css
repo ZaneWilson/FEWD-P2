@@ -222,20 +222,13 @@ footer span {
     .marketing-page {
         float: left;
         width: 50%;
-        padding-left: 30px;
-        padding-right: 5px;
+        padding: 0 5px 40px 30px;
     }
 
     .search-page {
         float: right;
         width: 50%;
-        padding-right: 30px;
-        padding-left: 5px;
-    }
-
-    .search-page,
-    .marketing-page {
-        padding-bottom: 40px;
+        padding: 0 30px 40px 5px;
     }
 
     .travel-page {
@@ -348,6 +341,12 @@ footer span {
         color: #2EC4B6;
         text-decoration: none;
         font-weight: bold;
+    }
+
+    .clearfix-tablet::after {
+        content: "";
+        clear: both;
+        display: table;
     }
     
 }
