@@ -219,6 +219,10 @@ footer span {
         padding-left: 10px;
     }
 
+    .col {
+        min-height: 400px;
+    }
+
     .marketing-page {
         float: left;
         width: 50%;
