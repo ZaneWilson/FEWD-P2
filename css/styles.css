@@ -172,13 +172,8 @@ footer span {
     text-transform: uppercase;
 }
 
-
-/* ----- Media Queries (320px - 767px, phones) ----- */
-
-@media (min-width: 1px) and (max-width: 767px) {
-    footer ul {
-        display: none;
-    }
+footer ul {
+    display: none;
 }
 
 
@@ -345,6 +340,10 @@ footer span {
         color: #2EC4B6;
         text-decoration: none;
         font-weight: bold;
+    }
+
+    footer ul {
+        display: block;
     }
 
     .clearfix-tablet::after {
